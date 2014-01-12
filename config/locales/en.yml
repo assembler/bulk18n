@@ -1,0 +1,6 @@
+en:
+  greeting1: "Hello %{user}!"
+  greeting2: "Hi %{user}!"
+  greeting3: "Howdy %{user}!"
+  greeting4: "Greetings %{user}!"
+  greeting5: "Good day %{user}!"

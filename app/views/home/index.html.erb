@@ -1,0 +1,9 @@
+<h1>Welcome</h1>
+
+<ul>
+  <% 150.times do |n| %>
+    <li style="display: inline">
+      <%= t("greeting#{cycle(1..5)}", user: "User #{n}").titleize %>
+    </li>
+  <% end %>
+</ul>
