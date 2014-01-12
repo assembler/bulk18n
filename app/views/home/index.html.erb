@@ -3,7 +3,7 @@
 <ul>
   <% 150.times do |n| %>
     <li style="display: inline">
-      <%= t("greeting#{cycle(1..5)}", user: "User #{n}").titleize %>
+      <%= t("greeting#{cycle(1..5)}", user: "User #{n}").downcase %>
     </li>
   <% end %>
 </ul>
